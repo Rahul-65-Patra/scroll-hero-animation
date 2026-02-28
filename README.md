@@ -21,7 +21,7 @@ The hero section reacts to scroll and creates an engaging user experience.
 # 🔗 Live Demo
 
 🌐 Live Website  
-https://yourusername.github.io/scroll-hero-animation/
+https://rahul-65-patra.github.io/scroll-hero-animation/
 
 ---
 
