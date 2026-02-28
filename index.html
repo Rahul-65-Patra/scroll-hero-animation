@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Scroll Animation Assignment</title>
+
+<script src="https://cdn.tailwindcss.com"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+
+<style>
+
+body{
+background:#0a0a0a;
+color:white;
+overflow-x:hidden;
+font-family:system-ui;
+}
+
+/* letters animation start state */
+
+.letter{
+display:inline-block;
+opacity:0;
+transform:translateY(60px);
+}
+
+/* stat cards */
+
+.stat{
+opacity:0;
+transform:translateY(40px);
+}
+
+</style>
+
+</head>
+
+<body>
+
+
+<section class="hero h-screen flex flex-col items-center justify-center relative overflow-hidden">
+
+<h1 class="text-4xl md:text-7xl font-semibold tracking-[0.6em] text-center mb-16">
+
+<span class="letter">W</span>
+<span class="letter">E</span>
+<span class="letter">L</span>
+<span class="letter">C</span>
+<span class="letter">O</span>
+<span class="letter">M</span>
+<span class="letter">E</span>
+
+<span class="letter">&nbsp;</span>
+
+<span class="letter">I</span>
+<span class="letter">T</span>
+<span class="letter">Z</span>
+
+<span class="letter">&nbsp;</span>
+
+<span class="letter">F</span>
+<span class="letter">I</span>
+<span class="letter">Z</span>
+<span class="letter">Z</span>
+
+</h1>
+
+
+<div class="flex gap-14 text-center">
+
+<div class="stat">
+<h2 class="text-4xl font-bold text-yellow-400">250%</h2>
+<p class="text-gray-400">Revenue Growth</p>
+</div>
+
+<div class="stat">
+<h2 class="text-4xl font-bold text-yellow-400">120%</h2>
+<p class="text-gray-400">User Engagement</p>
+</div>
+
+<div class="stat">
+<h2 class="text-4xl font-bold text-yellow-400">95%</h2>
+<p class="text-gray-400">Performance</p>
+</div>
+
+</div>
+
+
+<img
+id="car"
+src="car.png"
+class="absolute bottom-10 left-[-450px] w-[65vw] max-w-[900px]"
+/>
+
+</section>
+
+
+<section class="h-[200vh] bg-white flex items-center justify-center">
+<h2 class="text-black text-5xl font-semibold">
+Scroll Down
+</h2>
+</section>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
